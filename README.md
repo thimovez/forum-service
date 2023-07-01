@@ -44,7 +44,11 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
+## Runnig docker compose
+```bash
+#development
+$ docker-compose --env-file docker.env up
+```
 ## Test
 
 ```bash
